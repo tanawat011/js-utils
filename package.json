@@ -1,4 +1,10 @@
 {
   "name": "js-utils",
-  "packageManager": "yarn@4.3.1"
+  "scripts": {
+    "dev": "nodemon ./query/mongo_filter_to_where_sql/index.js"
+  },
+  "packageManager": "yarn@4.3.1",
+  "dependencies": {
+    "nodemon": "^3.1.4"
+  }
 }
